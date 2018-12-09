@@ -1,4 +1,45 @@
+/** inicio codigo del tomi**/
 
+h1{
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.navbar{
+  background-color: #CF604D !important;
+  border-radius: 5px;
+}
+
+.navbar .navbar-brand{
+  color: #fff;
+  font-weight: bold;
+
+}
+
+.navbar .navbar-brand:hover{
+  color: #DBC2BE;
+}
+
+.navbar .navbar-nav li a{
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item{
+  color: #000 !important;
+  font-weight: normal;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+  color: #fff !important;
+  font-weight: normal;
+  background-color: #CF604D;
+  opacity: 0.5 ;
+}
+
+/**fin del codigo del tomi**/
 /** FOOTER **/
 *{
     margin: 0px;
