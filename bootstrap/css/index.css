@@ -60,6 +60,7 @@ h2{
   margin-top: 30px;
   margin-bottom: 30px;
   color: white;
+  border: none;
 }
 
 .btn:hover{
@@ -154,5 +155,15 @@ ul, ol {
     opacity: 0;
     visibility: hidden;
     transition: .22s ease;
+<<<<<<< HEAD
 }
 /**ESTILOS LA CIUDAD**/
+=======
+
+  }
+  /**Alcaldesa**/
+
+  .lectura {
+    line-height: 22pt;
+  }
+>>>>>>> 017b6f2a1d390c5f79535be153995fed0ec64331
