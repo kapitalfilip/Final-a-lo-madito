@@ -6,6 +6,19 @@ h1{
   padding: 30px;
 }
 
+h2{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.Muni{
+  text-align: right;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+
+}
+
 .navbar{
   background-color: #CF604D !important;
   border-radius: 5px;
@@ -27,6 +40,10 @@ h1{
   font-size: 20px;
 }
 
+.navbar .navbar-nav li a:hover{
+  background-color: #CA776A;
+}
+
 .navbar .nav-item .dropdown-menu .dropdown-item{
   color: #000 !important;
   font-weight: normal;
@@ -38,12 +55,64 @@ h1{
   background-color: #CF604D;
 }
 
+.btn{
+  background-color: #CF604D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #DBC2BE;
+}
+.navbar-toggler{
+  background-color: white;
+}
+a:link
+{
+text-decoration:none;
+}
+a:hover{
+  color: #CF604D;
+}
+/**HEADER**/
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-group{
+  text-align: right;
+
+}
+
+.Transparencia{
+  text-align:right;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-right: 140px;
+  font-weight: bold;
+}
+.lonc{
+  color: white;
+}
+.btn-tr1{
+  background-color: #83706D !important;
+
+}
+.btn-tr1:hover{
+  background-color: #BC9791 !important;
+}
+/**FIN HEADER **/
 /**fin del codigo del tomi**/
 /** FOOTER **/
+h5{
+  margin-top: 50px
+}
 
 
 footer {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .context-dark, .bg-gray-dark, .bg-primary {
