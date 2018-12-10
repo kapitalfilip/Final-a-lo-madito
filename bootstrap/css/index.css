@@ -36,138 +36,51 @@ h1{
   color: #fff !important;
   font-weight: normal;
   background-color: #CF604D;
-  opacity: 0.5 ;
 }
 
 /**fin del codigo del tomi**/
 /** FOOTER **/
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Roboto;
+
+footer {
+  margin-top: 10px;
 }
 
-footer{
-    width: 100%;
-    background: #202020;
-    color: white;
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.container-footer-all{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px;
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.container-body{
-    display: flex;
-    justify-content: space-between;
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
 }
 
-.col1{
-    max-width: 400px;
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.col1 h1{
-    font-size: 22px;
 }
-
-.col1 label{
-    font-size: 15px;
-    margin-top: 20px;
-    margin-left: 15px;
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
-
-.row img{
-    width: 34px;
-    height: 34px;
-    margin-top: 10px;
-}
-
-.col2 a{
-    margin-left: 10px;
-}
-
-.col2{
-    max-width: 400px;
-}
-
-.col2 h1{
-    font-size: 22px;
-}
-
-.row2{
-    margin-top: 20px;
-    display: flex;
-}
-
-.row2 img{
-    margin-top: 20px;
-    width: 34px;
-    height: 34px;
-    border-radius: 25px;
-    margin: 5px;
-}
-
-.row2 a{
-    margin-top: 10px;
-    margin left: 20px;
-    color: #C7C7C7;
-    text-decoration: none;
-}
-
-
-.col3{
-    max-width: 400px;
-}
-
-.col3 h1{
-    font-size: 22px;
-}
-
-.col3 h2{
-    font-size: 16px;
-}
-
-.row3{
-    margin-top: 20px;
-}
-
-
-.container-footer{
-    width: 100%;
-    background: #101010;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.footer{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.copyright{
-    color: #C7C7C7;
-}
-
-@media screen and (max-width: 1100px){
-
-    .container-body{
-      flex-wrap: wrap;
-    }
-
-    col1{
-      max-width: 100%;
-    }
-
-    .col2,
-    .col3{
-      margin-top: 40px;
-    }
-}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
